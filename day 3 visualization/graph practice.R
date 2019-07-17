@@ -2,13 +2,13 @@ library(dplyr)
 library(readxl)
 url <- "http://api.worldbank.org/v2/en/indicator/IC.TAX.LABR.CP.ZS?downloadformat=csv"
 filename <- "laborforce.xlsx"
-laborforce <- read_excel("C:/Users/louin/Documents/GitHub/laborforce.xlsx")
+laborforce <- read_excel("C:/Users/louin/Documents/GitHub/homework1/laborforce.xlsx")
 womenforce <- select(laborforce, `Country Name`, `force2018`)
 head(womenforce)
 
 url <- "http://api.worldbank.org/v2/en/indicator/SL.TLF.TOTL.FE.ZS?downloadformat=csv"
 filename <- "labortax.xls"
-labortax <- read_excel("C:/Users/louin/Documents/GitHub/labortax.xlsx")
+labortax <- read_excel("C:/Users/louin/Documents/GitHub/homework1/labortax.xlsx")
 head(labortax)
 taxcontribution <- select(labortax, `Country Name`, `tax2018`)
 head(taxcontribution)
