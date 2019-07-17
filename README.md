@@ -19,7 +19,7 @@ Extending Learning:
 。[Labor force, female](https://data.worldbank.org/indicator/SL.TLF.TOTL.FE.ZS?view=chart)
 ## week2  
 ### day_3:  
-* practice: [graph](https://louiselu1011.github.io/data-science-summerschool/day3_visualization/graph-practice.html)  
+* practice: [graph](https://louiselu1011.github.io/data-science-summerschool/day%203%20visualization/graph-practice.html)  
 * homework2:  
 * reference:   
 。[Joining Data in R with dplyr](https://rpubs.com/williamsurles/293454)
