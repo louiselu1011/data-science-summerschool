@@ -7,6 +7,7 @@ click here to enter the [class](https://www.peculab.org/)
 Extending Learning:  
 。[Rmd](https://medium.com/datainpoint/communicating-md-e53a08e6652f)  
 。[Rmd常用語法](https://markdown.tw/)  
+。[dplyr & ggplot2 fun.](https://monashbioinformaticsplatform.github.io/r-more/topics/tidyverse.html)
 
 
 ## week1  
