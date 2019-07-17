@@ -22,4 +22,5 @@ Extending Learning:
 * practice: [graph](https://louiselu1011.github.io/data-science-summerschool/day%203%20visualization/graph-practice.html)  
 * homework2:  
 * reference:   
-。[Joining Data in R with dplyr](https://rpubs.com/williamsurles/293454)
+。[Joining Data in R with dplyr](https://rpubs.com/williamsurles/293454)  
+。[Cheatsheet for dplyr join fun.](https://stat545.com/bit001_dplyr-cheatsheet.html#left_joinpublishers-superheroes)
