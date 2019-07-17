@@ -1,9 +1,12 @@
 # data-science for summerschool    
   
-¡Hola! I'm Louise 盧奕彣  
-From 政大歐語系  
+__¡Hola! I'm Louise 盧奕彣__  
+__From 政大歐語系__  
   
-click here to enter the [class](https://www.peculab.org/)
+click here to enter the [class](https://www.peculab.org/)  
+Extending Learning:  
+。[Rmd](https://medium.com/datainpoint/communicating-md-e53a08e6652f)  
+
 ## week1  
 ### day_1:  
 * [mission](https://louiselu1011.github.io/data-science-summerschool/day%201/beginning.html)  
@@ -12,4 +15,6 @@ click here to enter the [class](https://www.peculab.org/)
 。reference: [Labor tax and contributions](https://data.worldbank.org/indicator/IC.TAX.LABR.CP.ZS?view=chart)  , [Labor force, female](https://data.worldbank.org/indicator/SL.TLF.TOTL.FE.ZS?view=chart)
 ## week2  
 ### day_3:  
-* practice: [graph](https://louiselu1011.github.io/data-science-summerschool/day3_visualization/graph-practice.html)
+* practice: [graph](https://louiselu1011.github.io/data-science-summerschool/day3_visualization/graph-practice.html)  
+* homework2:  
+。reference: [Joining Data in R with dplyr](https://rpubs.com/williamsurles/293454)
