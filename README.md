@@ -23,4 +23,5 @@ Extending Learning:
 * homework2:  
 * reference:   
 。[Joining Data in R with dplyr](https://rpubs.com/williamsurles/293454)  
-。[Cheatsheet for dplyr join fun.](https://stat545.com/bit001_dplyr-cheatsheet.html#left_joinpublishers-superheroes)
+。[Cheatsheet for dplyr join fun.](https://stat545.com/bit001_dplyr-cheatsheet.html#left_joinpublishers-superheroes)  
+。[Data analysis ex. with ggplot2](https://www.sharpsightlabs.com/blog/data-analysis-example-r-supercars-part2/)
