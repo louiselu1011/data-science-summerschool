@@ -21,7 +21,7 @@ Extending Learning:
 ## week2  
 ### day_3:  
 * practice: [graph](https://louiselu1011.github.io/data-science-summerschool/day%203%20visualization/graph-practice.html)  
-* homework2:  
+* homework2: [warmup for DEPRESSION project](https://louiselu1011.github.io/data-science-summerschool/day%203%20visualization/warmup-for-project.html)  
 * reference:   
 。[Joining Data in R with dplyr](https://rpubs.com/williamsurles/293454)  
 。[Cheatsheet for dplyr join fun.](https://stat545.com/bit001_dplyr-cheatsheet.html#left_joinpublishers-superheroes)  
