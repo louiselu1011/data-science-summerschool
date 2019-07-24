@@ -1,0 +1,40 @@
+---
+title: "cnn_Taiwan"
+author: "Louise"
+date: "2019/7/25"
+output: html_document
+---
+
+```{r}
+library("tm")
+library("SnowballC")
+library("wordcloud")
+library("RColorBrewer")
+library(jiebaR)
+library(jiebaRD)
+
+
+text <- readLines("C:/Users/louin/Documents/GitHub/PROJECT/Data-Science-Programming/Week3/data/cnn_2019.txt")
+head(text)
+cnntext <- Corpus(VectorSource(text))
+cnntext <- tm_map(cnntext,stripWhitespace)
+cnntext <- tm_map(cnntext,tolower)
+cnntext <- tm_map(cnntext,removeNumbers)
+cnntext <- tm_map(cnntext,removePunctuation)
+cnntext <- tm_map(cnntext,removeWords, stopwords("english"))
+cnntext <- tm_map(cnntext,removeWords, c("and","the","our","that","for","are","also","more","has","must","have","should","this","with", "said", "says"))
+
+```
+
+
+```{r}
+
+tdm_cnn <- TermDocumentMatrix(cnntext)
+TDM1 <- as.matrix(tdm_cnn)
+v = sort(rowSums(TDM1), decreasing = TRUE)
+head(v)
+library(ggplot2)
+wordcloud (cnntext, scale=c(8,0.5), max.words=30, random.order=FALSE, rot.per=0.3, use.r.layout=FALSE, colors=brewer.pal(8, "Dark2"))
+
+
+```

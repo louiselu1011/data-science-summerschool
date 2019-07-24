@@ -4,9 +4,36 @@ library("wordcloud")
 library("RColorBrewer")
 library(jiebaR)
 library(jiebaRD)
+install.packages("NPL")
 
 text <- readLines("C:/Users/louin/Documents/GitHub/PROJECT/Data-Science-Programming/Week3/data/cnn_2019.txt")
 head(text)
+cnntext <- Corpus(VectorSource(text))
+cnntext <- tm_map(cnntext,stripWhitespace)
+cnntext[[98]] <- NULL
+cnntext[[1061]] <- NULL
+cnntext[[3086]] <- NULL
+cnntext[[5067]] <- NULL
+cnntext[[5121]] <- NULL
+cnntext[[5819]] <- NULL
+cnntext[[8966]] <- NULL
+cnntext[[9077]] <- NULL
+cnntext[[9462]] <- NULL
+cnntext[[15406]] <- NULL
+cnntext <- tm_map(cnntext,tolower)
+cnntext <- tm_map(cnntext,removeNumbers)
+cnntext <- tm_map(cnntext,removePunctuation)
+cnntext <- tm_map(cnntext,removeWords, stopwords("english"))
+cnntext <- tm_map(cnntext,removeWords, c("and","the","our","that","for","are","also","more","has","must","have","should","this","with"))
 
-cutter = worker()
-cuuter
+tdm_cnn <- TermDocumentMatrix(cnntext)
+TDM1 <- as.matrix(tdm_cnn)
+v = sort(rowSums(TDM1), decreasing = TRUE)
+head(v)
+
+wordcloud (cnntext, scale=c(3,0.1), max.words=20, random.order=FALSE, rot.per=0.35, use.r.layout=FALSE, colors=brewer.pal(8, "Dark2"))
+
+install.packages("igraph")
+require(igraph)
+graph <- graph.adjacency(round(TDM1*10), mode = "undirected", diag = FALSE)
+  
