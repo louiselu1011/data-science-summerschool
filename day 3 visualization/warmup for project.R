@@ -26,3 +26,6 @@ head(`per capita disposable income`)
 head(`users of antidepressant`)
 depression_v.s._income <- left_join(`users of antidepressant`, `per capita disposable income`, by = "city")
 head(depression_v.s._income)
+
+ggplot(data = depression_v.s._income, mapping = aes(x = "users of antidepressant", y = "per capita disposable income", color = "sex")) + 
+  geom_point(alpha = .7, size = 1.5)

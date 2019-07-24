@@ -53,7 +53,7 @@ scatterplot + geom_line()
 ```
 
 ```{r}  
-scatterplot + geom_point(alpha = .7, size = 3) + geom_smooth(method = "lm")
+scatterplot + geom_point(alpha = .7, size = 3) + stat_smooth(method = "lm")
 ```　　
 
 ## Conclusion:  
