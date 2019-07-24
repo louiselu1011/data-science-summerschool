@@ -32,6 +32,6 @@ Extending Learning:
 * homework3: [cnn_Taiwan practice](https://louiselu1011.github.io/data-science-summerschool/day%204%20wordcloud/cnn_Taiwan-practice.html)
 ## week3  
 ### day_5&6:  
-* final_project:[cnn_Taiwan](https://louiselu1011.github.io/data-science-summerschool/final%20project/cnn_Taiwan.html)  
+* final_project: [cnn_Taiwan](https://louiselu1011.github.io/data-science-summerschool/final%20project/cnn_Taiwan.html)  
 * reference:  
 。[Text mining and word cloud fundamentals in R](http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know)
