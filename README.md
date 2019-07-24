@@ -27,4 +27,11 @@ Extending Learning:
 。[Cheatsheet for dplyr join fun.](https://stat545.com/bit001_dplyr-cheatsheet.html#left_joinpublishers-superheroes)  
 。[Data analysis ex. with ggplot2](https://www.sharpsightlabs.com/blog/data-analysis-example-r-supercars-part2/)  
 。[Drawig fun. of ggplot2](http://rpubs.com/MingLun-Wu/409889)  
-。[Visualization examples](https://nuitrcs.github.io/ggplotworkshop/ggplot.html#multiple_lines)
+。[Visualization examples](https://nuitrcs.github.io/ggplotworkshop/ggplot.html#multiple_lines)  
+### day_4:  
+* homework3:  
+## week3  
+### day_5:  
+* final_project:  
+* reference:  
+。[Text mining and word cloud fundamentals in R](http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know)
