@@ -29,7 +29,7 @@ Extending Learning:
 。[Drawig fun. of ggplot2](http://rpubs.com/MingLun-Wu/409889)  
 。[Visualization examples](https://nuitrcs.github.io/ggplotworkshop/ggplot.html#multiple_lines)  
 ### day_4:  
-* homework3:  
+* homework3: [cnn_Taiwan practice](https://louiselu1011.github.io/data-science-summerschool/day%204%20wordcloud/cnn_Taiwan-practice.html)
 ## week3  
 ### day_5:  
 * final_project:  
